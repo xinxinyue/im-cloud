@@ -1,0 +1,27 @@
+{
+    "name": "xinxinyue/imcloud",
+    "authors": [
+        {
+            "name": "xinxinyue",
+            "email": "546854479@qq.com"
+        }
+    ],
+    "require": {
+        "xinxinyue/imstart": "dev-master",
+        "firebase/php-jwt": "^5.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "ImCloud\\":"./src/"
+        },
+        "files":[
+            "src/Supper/Helper.php"
+        ]
+    },
+    "repositories": {
+        "xinxinyue": {
+            "type": "path",
+            "url": "../imstart"
+        }
+    }
+}
